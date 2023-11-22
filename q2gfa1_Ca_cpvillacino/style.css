@@ -26,16 +26,31 @@ nav{
     z-index: -1;
 }
 .banner{
-    background: rgba(0, 0, 0, 0.5);
+    margin-top: 33vh;
+    padding: 50px;
+    background: rgba(78, 173, 137, 0.5);
+}
+.bannerhead{
+    text-align: center;
+    color: white;
+    font-size: 300%;
 }
 .icon{
     background: url(media/sprite3.png);
     background-repeat: no-repeat;
-    height: 66px;
+    width: 33px;
+    height: 33px;
+    background-size: 359px 174px;
     display: inline-block;
+    border-radius: 30px;
 }
-#twt{
-    background: url('media/') no-repeat -66px -72px;
-	width: 67px;
-	height: 66px;
+footer{
+    margin-top: 25vh;
+    text-align: right;
+    margin-right: 10px;
 }
+
+#twt{background-position: -33px -36px;}
+#fb{background-position: -219px -73px;}
+#gmail{background-position: -182px -111px;}
+#skype{background-position: -182px -74px;}
