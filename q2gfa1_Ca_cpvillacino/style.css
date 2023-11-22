@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    background-color: rgb(76, 149, 158);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.links a{
+    padding-left: 1vw;
+}
+#vidbg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+.banner{
+    background: rgba(0, 0, 0, 0.5);
+}
+.icon{
+    background: url(media/sprite3.png);
+    background-repeat: no-repeat;
+    height: 66px;
+    display: inline-block;
+}
+#twt{
+    background: url('media/') no-repeat -66px -72px;
+	width: 67px;
+	height: 66px;
+}
